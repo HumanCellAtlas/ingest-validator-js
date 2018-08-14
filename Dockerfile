@@ -9,4 +9,4 @@ ADD config ./config
 COPY package*.json ./
 
 RUN npm install
-CMD ["node", "./src/app.js"]
+CMD ["tail", "-f" "./src/app.js"]
