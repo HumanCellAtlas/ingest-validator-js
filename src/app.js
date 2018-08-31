@@ -6,6 +6,7 @@
 const request = require('request-defaults');
 
 request.globalDefaults({
+    rejectUnauthorized: false,
     family: 4,
     pool: {
         maxSockets: 10
