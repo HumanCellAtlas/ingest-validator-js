@@ -8,7 +8,9 @@
     "start": "node src/server.js",
     "test": "jest",
     "test-watch": "nodemon --exec \"npm test\"",
-    "travis-test": "jest test/validator.test.js test/schema-references.test.js"
+    "travis-test": "jest test/validator.test.js test/schema-references.test.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": "8.11.1"
@@ -37,10 +39,12 @@
     "update": "^0.7.4",
     "winston": "^3.0.0-rc6",
     "winston-daily-rotate-file": "^3.2.1",
-    "yargs": "^11.0.0"
+    "yargs": "^11.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "jest": "^22.4.3",
     "nodemon": "^1.17.5"
-  }
+  },
+  "snyk": true
 }
