@@ -22,7 +22,7 @@
   "author": "EMBL-EBI-SUBS, fpenim",
   "license": "Apache-2.0",
   "dependencies": {
-    "ajv": "^6.0.0",
+    "ajv": "^6.12.3",
     "amqplib": "^0.5.2",
     "bluebird": "^3.5.1",
     "config": "^2.0.1",
@@ -31,7 +31,7 @@
     "express-validator": "^5.2.0",
     "npid": "^0.4.0",
     "rambda": "^1.2.0",
-    "request": "^2.83.0",
+    "request": "^2.88.0",
     "request-defaults": "^1.2.0",
     "request-promise": "^4.2.2",
     "update": "^0.7.4",
