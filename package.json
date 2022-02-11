@@ -22,7 +22,7 @@
   "author": "EMBL-EBI-SUBS, fpenim",
   "license": "Apache-2.0",
   "dependencies": {
-    "ajv": "^6.0.0",
+    "ajv": "^6.12.3",
     "amqplib": "^0.5.2",
     "bluebird": "^3.5.1",
     "config": "^2.0.1",
