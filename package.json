@@ -37,7 +37,7 @@
     "update": "^0.7.4",
     "winston": "^3.0.0-rc6",
     "winston-daily-rotate-file": "^3.2.1",
-    "yargs": "^11.0.0"
+    "yargs": "^13.2.4"
   },
   "devDependencies": {
     "jest": "^22.4.3",
