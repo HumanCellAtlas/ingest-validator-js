@@ -25,10 +25,10 @@
     "ajv": "^6.0.0",
     "amqplib": "^0.5.2",
     "bluebird": "^3.5.1",
-    "config": "^2.0.1",
+    "config": "^3.3.9",
     "dnscache": "^1.0.1",
     "express": "^4.16.2",
-    "express-validator": "^5.2.0",
+    "express-validator": "^6.10.1",
     "npid": "^0.4.0",
     "rambda": "^1.2.0",
     "request": "^2.83.0",
@@ -36,8 +36,8 @@
     "request-promise": "^4.2.2",
     "update": "^0.7.4",
     "winston": "^3.0.0-rc6",
-    "winston-daily-rotate-file": "^3.2.1",
-    "yargs": "^11.0.0"
+    "winston-daily-rotate-file": "^4.0.0",
+    "yargs": "^17.6.0"
   },
   "devDependencies": {
     "jest": "^22.4.3",
